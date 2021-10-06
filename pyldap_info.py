@@ -6,6 +6,7 @@ import subprocess
 import pyautogui as pag
 from termcolor import colored
 import argparse
+import time
 
 
 # This function will output the credits of the code
@@ -52,6 +53,7 @@ if __name__ == "__main__":
 
     counter = 1
     with open(fileIP,"r") as fIPs:
+        start = time.perf_counter()
         for ip in fIPs:
             print(f"Checking the ip n°{counter} out of {totIP}")
             ip = str(ip).replace("\n","")
@@ -71,3 +73,6 @@ if __name__ == "__main__":
                 pass
             finally:
                 counter += 1
+
+        end = time.perf_counter()
+        print(f"Actual time used: {round(end-start,2)}")
