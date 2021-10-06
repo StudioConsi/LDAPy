@@ -9,12 +9,6 @@ Dato un file da input utente, questo script cercherà automaticamente misconfigu
 
 # USAGE
 
-#####################################################################
-#       Python3 code to check for LDAP base misconfiguration        #
-#          Implemented by Marco Dal Broi @ Studio Consi             #
-#                   https://studioconsi.com                         #
-#####################################################################
-
 usage: pyldap_info.py [-h] -f FILE
 
 optional arguments:
@@ -23,4 +17,4 @@ optional arguments:
 
 *example*
 
-python3 pyldap_info.py --help                                                                                                                                              
+python3 pyldap_info.py --help
