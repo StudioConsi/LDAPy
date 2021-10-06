@@ -1,5 +1,5 @@
 # pyLDAP_mis
-Python3 script to check for LDAP base misconfigurations
+Python3 script to check for LDAP basis/obvious misconfigurations
 
 # ENGLISH
 Got an user's file, this script will search for basic LDAP misconfigurations.
