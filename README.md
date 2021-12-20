@@ -1,11 +1,13 @@
 # LDAPy
-Python3 script to check for LDAP basis/obvious misconfigurations
+Python3 script to check for LDAP basic/obvious misconfigurations
+
 
 # ENGLISH
 Got an user's file, this script will search for basic LDAP misconfigurations.
 
 # ITALIANO
 Dato un file da input utente, questo script cercherà automaticamente misconfigurazioni basilari dell'LDAP.
+
 
 # USAGE
 
