@@ -1,4 +1,4 @@
-# pyLDAP_mis
+# LDAPy
 Python3 script to check for LDAP basis/obvious misconfigurations
 
 # ENGLISH
@@ -9,7 +9,7 @@ Dato un file da input utente, questo script cercherà automaticamente misconfigu
 
 # USAGE
 
-usage: pyldap_info.py [-h] -f FILE
+usage: lda.py [-h] -f FILE
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -17,4 +17,4 @@ optional arguments:
 
 *example*
 
-python3 pyldap_info.py --help
+python3 lda.py --help
